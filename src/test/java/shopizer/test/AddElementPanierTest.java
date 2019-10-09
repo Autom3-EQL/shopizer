@@ -22,7 +22,7 @@ public class AddElementPanierTest {
 	@Before
 	public void setUp() {
 		System.out.println("\n@Before");
-		driver = Outils.choisirNavigateur(BROWSER);
+		driver = Outils.choisirNavigateur("firefox");
 		//driver= Outils.choisirNavigateur(BROWSER);
 		driver.manage().window().maximize();
 		driver.get(url);

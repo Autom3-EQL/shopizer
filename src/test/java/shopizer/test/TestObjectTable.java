@@ -25,7 +25,7 @@ public class TestObjectTable {
 		@Before
 		public void setUp() {
 			System.out.println("\n@Before");
-			driver = Outils.choisirNavigateur(BROWSER);
+			driver = Outils.choisirNavigateur("firefox");
 			driver.manage().window().maximize();
 			driver.get(url);
 			

@@ -26,7 +26,7 @@ public class TestObjectAccueil {
 		@Before
 		public void setUp() {
 			System.out.println("\n@Before");
-			driver = Outils.choisirNavigateur(BROWSER);
+			driver = Outils.choisirNavigateur("firefox");
 			//driver= Outils.choisirNavigateur(b);
 			//driver= Outils.choisirNavigateur(BROWSER);
 			driver.manage().window().maximize();
