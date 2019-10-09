@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: shopizer.test.TestObjectTable
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.001 sec <<< FAILURE! - in shopizer.test.TestObjectTable
+test(shopizer.test.TestObjectTable)  Time elapsed: 0 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at shopizer.tools.Outils.choisirNavigateur(Outils.java:40)
+	at shopizer.test.TestObjectTable.setUp(TestObjectTable.java:28)
+
+test(shopizer.test.TestObjectTable)  Time elapsed: 0.001 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at shopizer.test.TestObjectTable.tearDown(TestObjectTable.java:63)
+

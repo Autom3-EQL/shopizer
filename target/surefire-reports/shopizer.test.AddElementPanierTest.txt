@@ -1,0 +1,13 @@
+-------------------------------------------------------------------------------
+Test set: shopizer.test.AddElementPanierTest
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.184 sec <<< FAILURE! - in shopizer.test.AddElementPanierTest
+test(shopizer.test.AddElementPanierTest)  Time elapsed: 0.022 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at shopizer.tools.Outils.choisirNavigateur(Outils.java:40)
+	at shopizer.test.AddElementPanierTest.setUp(AddElementPanierTest.java:25)
+
+test(shopizer.test.AddElementPanierTest)  Time elapsed: 0.025 sec  <<< ERROR!
+java.lang.NullPointerException: null
+	at shopizer.test.AddElementPanierTest.tearDown(AddElementPanierTest.java:73)
+
